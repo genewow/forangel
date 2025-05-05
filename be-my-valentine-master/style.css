@@ -1,0 +1,41 @@
+body {
+  font-family: 'Protest Riot', cursive;
+  background-color: #ffe6f0;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+.container {
+  text-align: center;
+}
+.cat-img {
+  width: 300px;
+  border-radius: 15px;
+}
+.title {
+  font-size: 2rem;
+  margin: 20px;
+}
+.buttons {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+}
+.btn {
+  padding: 10px 20px;
+  border: none;
+  border-radius: 10px;
+  font-size: 1rem;
+  cursor: pointer;
+}
+.btn--yes {
+  background-color: #ff69b4;
+  color: white;
+}
+.btn--no {
+  background-color: #cccccc;
+  color: black;
+}
